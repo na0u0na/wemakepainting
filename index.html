@@ -1,0 +1,343 @@
+<!Doctype>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="src/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="src/jquery-1.12.4.min.js"></script>
+    <script src="src/jquery.mousewheel.min.js"></script>
+    <script src="src/jquery.scrollTo-min.js"></script>
+    <script src="src/make.js"></script>
+    <title>위메이크 페인팅</title>
+</head>
+
+<body>
+    <div id="Wrap">
+        <nav>
+            <img src="img/top_logo.png" alt="" class="logow" />
+            <div class="icon">
+                <a href="#"><img src="img/ft_nav_search.svg" alt="search" /></a>
+                <a href="#"><img src="img/ft_nav_cart.svg" alt="cart" /></a>
+                <a href="#"><img src="img/ft_nav_my.svg" alt="my" /></a>
+            </div><!--icon-->
+            <ul>
+                <li><a href="index.html">베스트</a></li>
+                <li><a href="index.html">페인팅</a></li>
+                <li><a href="index.html">액세서리</a></li>
+                <li><a href="index.html">OTHER</a></li>
+                <li><a href="index.html">이벤트</a></li>
+                <li><a href="index.html">커뮤니티</a></li>
+            </ul>
+        </nav>
+        <img src="img/arrow.png" alt="Topbtn" class="Topbtn" />
+        <header>
+            <video muted autoplay loop>
+                <source src="img/wemake.mp4" type="video/mp4">
+            </video>
+            <p>작은 행복을 위한 노력,</p>
+            <h1>위메이크 페인팅</h1>
+            <div class="menubox">
+                <a href="#">매직</a>
+                <a href="#">프리미엄</a>
+                <a href="#">베이직</a>
+            </div><!--menubox-->
+        </header>
+
+        <div id="topSlide">
+            <div class="backboard">
+                <ul>
+                    <li>
+                        <img src="img/back4.png" alt="slide4" />
+                        <p>매주 금요일 6시,</p>
+                        <span>녹아내리는 타임딜</span>
+                        <a href="#">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/back1.png" alt="slide1" />
+                        <p>위메이크 매직 페인팅</p>
+                        <span>5초면 사라지는<br />마법같은 페인팅</span>
+                        <a href="#">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/back2.png" alt="slide2" />
+                        <p>회원 단독 혜택</p>
+                        <span>재미 없으면?<br />100% 환불!</span>
+                        <a href="#">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/back3.jpg" alt="slide3" />
+                        <p>티끌 하나 없는, 아주 깨끗한</p>
+                        <span>덧칠이 필요 없는<br />마법같은 페인팅</span>
+                        <a href="#">자세히 보기</a>
+                    </li>
+                    <li>
+                        <img src="img/back4.png" alt="slide4" />
+                        <p>매주 금요일 6시,</p>
+                        <span>녹아내리는 타임딜</span>
+                        <a href="#">자세히 보기</a>
+                    </li>
+                </ul>
+            </div><!--backboard-->
+            <span class="btn">▶</span>
+            <div class="rightboard">
+                <ul>
+                    <li><img src="img/back2.png" alt="slide1" /></li>
+                    <li><img src="img/back3.jpg" alt="slide1" /></li>
+                    <li><img src="img/back4.png" alt="slide1" /></li>
+                    <li><img src="img/back1.png" alt="slide1" /></li>
+                    <li><img src="img/back2.png" alt="slide1" /></li>
+                </ul>
+            </div><!--rightboard-->
+        </div><!--topSlide-->
+
+        <div id="Slide1">
+            <p>베스트 상품</p>
+            <span>인기 상품들을 한눈에 확인해 보세요.</span>
+            <div class="num slidebox1"><img src='img/num1.png' alt='number1' /></div>
+            <div class="num slidebox2"><img src='img/num2.png' alt='number2' /></div>
+            <div class="products">
+                <div class="productbox productbox1">
+                    <img src="img/product/10.png" alt="productImg" />
+                    <span>윤슬</span>
+                    <p>집에 걸어 놓으면<br />시선이 머물 수 밖에 없는<br />#눈부신 풍경<br />#기분좋게 일렁이는 잔물결</p>
+                    <div class="pricebar"></div>
+                    <a href="#" class="price">29,900원 ▶</a>
+                </div><!--productbox1-->
+                <div class="productbox productbox2">
+                    <img src="img/product/4.png" alt="productImg" />
+                    <span>어바웃타임</span>
+                    <p>웃을 때 아름다운 그녀<br />#사랑한다면<br />#미소지어 보아요</p>
+                    <div class="pricebar"></div>
+                    <a href="#" class="price">29,900원 ▶</a>
+                </div><!--productbox2-->
+                <div class="productbox productbox3">
+                    <img src="img/product/1.png" alt="productImg" />
+                    <span>옐로 튤립 [프리미엄]</span>
+                    <p>밝게 물드는 노란빛처럼<br />#따뜻한 햇볕처럼<br />#환해지는듯</p>
+                    <div class="pricebar"></div>
+                    <a href="#" class="price">29,900원 ▶</a>
+                </div><!--productbox3-->
+                <div class="productbox productbox4">
+                    <img src="img/product/6.png" alt="productImg" />
+                    <span>튤립과 윤슬</span>
+                    <p>짝사랑을 해본적이 있나요?<br />#가깝지만 멀게 느껴지는<br />#하나뿐인</p>
+                    <div class="pricebar"></div>
+                    <a href="#" class="price">29,900원 ▶</a>
+                </div><!--productbox4-->
+            </div><!--products-->
+        </div><!--Slide1-->
+
+        <div id="Slide2">
+            <p>새로운 상품</p>
+            <span>새로 나온 상품을 확인해 보세요.</span>
+            <div class="fbtn"></div>
+            <div class="sbtn"></div>
+            <div class="bottombar"></div>
+            <div class="slide2box">
+                <ul>
+                    <li>
+                        <div class="newbox1">
+                            <img src="img/product/16.png" alt="productImg" />
+                            <span>타이타닉 [프리미엄]</span>
+                            <p>29,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox1-->
+                    <li>
+                        <div class="newbox2">
+                            <img src="img/product/2.png" alt="productImg" />
+                            <span>오렌지 나무 [프리미엄]</span>
+                            <p>29,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox2-->
+                    <li>
+                        <div class="newbox3">
+                            <img src="img/product/11.png" alt="productImg" />
+                            <span>모네 베퇴유 [프리미엄]</span>
+                            <p>29,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox3-->
+                    <li>
+                        <div class="newbox4">
+                            <img src="img/product/8.png" alt="productImg" />
+                            <span>남산타워 [프리미엄]</span>
+                            <p>29,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox4-->
+
+                    <li>
+                        <div class="newbox5">
+                            <img src="img/product/19.png" alt="productImg" />
+                            <span>포메라니안 [프리미엄]</span>
+                            <p>19,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox5-->
+                    <li>
+                        <div class="newbox6">
+                            <img src="img/product/20.png" alt="productImg" />
+                            <span>비숑 [프리미엄]</span>
+                            <p>19,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox6-->
+                    <li>
+                        <div class="newbox7">
+                            <img src="img/product/21.png" alt="productImg" />
+                            <span>푸들 [프리미엄]</span>
+                            <p>19,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox7-->
+                    <li>
+                        <div class="newbox8">
+                            <img src="img/product/22.png" alt="productImg" />
+                            <span>말티푸 [프리미엄]</span>
+                            <p>19,900원</p>
+                            <a href="#" class="showbox">상품 보기</a>
+                        </div>
+                    </li><!--newbox8-->
+                </ul>
+            </div><!--2ulbox-->
+        </div><!--Slide2-->
+
+        <div id="Slide3">
+            <h1>WE MAKE PAINTING</h1>
+        </div><!--Slide3-->
+
+        <div id="Slide4">
+            <div class="productText1">
+                <img src="img/shop1.png" alt="shopimg" />
+                <p>공간을 페인팅하는 감성 라이프</p>
+                <div class="Toptag">
+                    <a class="tag" href="#">#풍경</a>
+                    <a class="tag" href="#">#도시</a>
+                </div><!--top-->
+                <div class="Middletag">
+                    <a class="tag" href="#">#정물</a>
+                    <a class="tag" href="#">#동물</a>
+                    <a class="tag" href="#">#영화</a>
+                </div><!--middle-->
+                <div class="Bottomtag">
+                    <a class="tag" href="#">#명화</a>
+                    <a class="tag" href="#">#팝아트</a>
+                </div><!--bottom-->
+                <a href="#" class="span">전체상품 보기</a>
+            </div><!--productText1-->
+            <div class="productText2">
+                <img class='shopfirst' src="img/shop3.png" alt="shopimg" />
+                <img src="img/shop4.png" alt="shopimg" />
+                <p class="ptitle">일상에서 쌓이는 작은 행복</p>
+                <p class="script">
+                    주문부터 완성까지 모든 순간이 <span>즐겁게</span>,
+                    <br />
+                    완성 후 말로 표현할 수 없는 <span>성취감</span>을,
+                    <br />
+                    몰입을 통한 마음의 <span>힐링</span>을,
+                    <br />
+                    기대감, 만족감, 보람, 모두의 <span>행복</span>을 바랍니다.
+                </p>
+                <a href="#" class="span">브랜드 스토리</a>
+            </div><!--productText2-->
+        </div><!--Slide4-->
+
+        <div id="Slide5">
+            <p>꼬물꼬물, 한땀한땀, 폭신폭신, 반짝반짝!</p>
+            <span>정성 가득 즐거운 취미를 가져보세요.</span>
+            <div class="made madePro1">
+                <article>미니어처</article>
+                <img src="img/product/s1.png" alt="madeProduct" />
+                <p>플랜트 티카페</p>
+                <span>45,900원</span>
+                <a href="#">상품 보러가기</a>
+            </div><!--madePro1-->
+            <div class="made madePro2">
+                <article>보석십자수</article>
+                <img src="img/product/s3.png" alt="madeProduct" />
+                <p>튤립의 꽃말</p>
+                <span>16,900원</span>
+                <a href="#">상품 보러가기</a>
+            </div><!--madePro2-->
+            <div class="made madePro3">
+                <article>양모펠트</article>
+                <img src="img/product/s4.png" alt="madeProduct" />
+                <p>산타 밤비</p>
+                <span>6,300원</span>
+                <a href="#">상품 보러가기</a>
+            </div><!--madePro3-->
+            <div class="made madePro4">
+                <article>펀치니들</article>
+                <img src="img/product/s5.png" alt="madeProduct" />
+                <p>별밤</p>
+                <span>7,000원</span>
+                <a href="#">상품 보러가기</a>
+            </div><!--madePro4-->
+            <div class="made madePro5">
+                <article>프랑스자수</article>
+                <img src="img/product/s6.png" alt="madeProduct" />
+                <p>로즈 가든</p>
+                <span>9,900원</span>
+                <a href="#">상품 보러가기</a>
+            </div><!--madePro5-->
+        </div><!--Slide5-->
+
+        <div id="Slide6">
+            <p>#당신을 위한 추천 키워드</p>
+            <span>원하는 키워드를 찾아보세요.</span>
+            <div class="keyword1">
+                <a href="#">#베스트</a>
+                <a href="#">#신상이 제일 좋아</a>
+                <a href="#">#눈부신 풍경</a>
+            </div><!--keyword1-->
+            <div class="keyword2">
+                <a href="#">#사람들의 도시</a>
+                <a href="#">#반려동물</a>
+                <a href="#">#어딘가 떠나고 싶을 때</a>
+            </div><!--keyword2-->
+            <video muted autoplay loop width="100%" height="20%">
+                <source src="img/paint.mp4" type="video/mp4">
+            </video>
+            <div class="posterbox">
+                <div class="posbox poster2">
+                    <img src="img/bs1.png" alt="poster" />
+                </div>
+                <div class="posterbar"></div>
+                <div class="posbox poster1">
+                    <img src="img/bs2.png" alt="poster" />
+                </div>
+            </div>
+        </div><!--Slide6-->
+
+        <footer>
+            <p class="leftSide">
+                <span>케이비지인터내셔널</span><br />
+                <br />
+                대표이사 : 김병길<br />
+                사업자등록번호 : 510-09-92000 [사업자정보확인]<br />
+                통신판매업신고 : 2019-서울금천-1247호<br />
+                주소 : 08502 에이스테크노타워10차 1008호, 서울특별시 금천구 가산디지털1로 196 (가산동)<br />
+                전화번호 : 02-2039-6330 팩스 : 02-2039-6558<br />
+                호스팅 사업자 : (주)카페24<br />
+                Copyright © 위메이크 페인팅. All rights reserved.Designed by morenvy<br />
+                <a href="#">회사소개</a> |
+                <a href="#">이용약관</a> |
+                <a href="#" class="footbold">개인정보처리방침</a> |
+                <a href="#">이용안내</a>
+            </p><!--leftSide-->
+            <p class="rightSide">
+                <a href="#"><img class='kakao' src="img/bn_kakao.png" alt="kakaotalk" /></a>
+                <br />고객센터02-2039-6330<br /></a>
+                평일 오전 10시 ~ 오후 5시 (주말/공휴일 휴무)<br />
+                점심 12:00~13:00<br />
+                <a href="#" class="inquiry">1:1 문의</a>
+            </p><!--rightSide-->
+        </footer>
+
+    </div><!--Wrap-->
+</body>
+
+</html>
